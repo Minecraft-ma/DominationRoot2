@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///${ROOT}/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "https://exemple.com/rss.xml",
+    "discord": {
+      "clientId": "",
+      "smallImageText": "Domination World",
+      "smallImageKey": "logo"
+    }
+  }
+}

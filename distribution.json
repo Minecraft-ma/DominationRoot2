@@ -1,0 +1,582 @@
+{
+  "version": "1.0.0",
+  "rss": "https://exemple.com/rss.xml",
+  "discord": {
+    "clientId": "",
+    "smallImageText": "Domination World",
+    "smallImageKey": "logo"
+  },
+  "servers": [
+    {
+      "id": "DominationWorld-1.16.5",
+      "name": "DominationWorld (Minecraft 1.16.5)",
+      "description": "DominationWorld Running Minecraft 1.16.5 (Forge v36.2.34)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.34",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 212608,
+            "MD5": "e8de93b1e25fcb60d847b2565d35369c",
+            "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.5-36.2.34",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 13577,
+                "MD5": "9cc72898a14a7d162d6813443761d30a",
+                "url": "http://localhost:8080/repo/versions/1.16.5-forge-36.2.34/1.16.5-forge-36.2.34.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.34:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2773337,
+                "MD5": "521b6d8bfa23e4e00da77f4a07f01f8f",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.34:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4214137,
+                "MD5": "8d8990d72f63d109f68fedf74182a3ea",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.16.5-36.2.34/forge-1.16.5-36.2.34-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 11352644,
+                "MD5": "93e9db2e02bbf8d768217c4bf3dfa6ad",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121790,
+                "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72641,
+                "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52662,
+                "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 84679,
+                "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34257,
+                "MD5": "f0e82941173b6049c03e8214ace70ecd",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "http://localhost:8080/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "http://localhost:8080/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://localhost:8080/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "http://localhost:8080/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "http://localhost:8080/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "http://localhost:8080/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "http://localhost:8080/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://localhost:8080/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "http://localhost:8080/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "http://localhost:8080/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "http://localhost:8080/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://localhost:8080/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "http://localhost:8080/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "http://localhost:8080/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "mtsheavyindustrialbyadamrk:mtsheavyindustrialbyadamrk:2.1.95@jar",
+          "name": "MTS Heavy Industrial Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14421713,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/1.16.5%20AdamRK%20Heavy%20Industrial%20-%202.2.0%20Standalone.jar",
+            "MD5": "4537e2d5c5ca325b65f8b19639e447b1"
+          }
+        },
+        {
+          "id": "uk.co.hexeption:aeinfinitybooster:1.16.5-1.0.0+12@jar",
+          "name": "AEInfinityBooster",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22306,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/AEInfinityBooster-1.16.5-1.0.0+12.jar",
+            "MD5": "e903097f4fdfeddd7e580b20760f969c"
+          }
+        },
+        {
+          "id": "appeng.core:appliedenergistics2:8.4.7@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4820914,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/appliedenergistics2-8.4.7.jar",
+            "MD5": "c89ee2036b32eaaf3aafc77ec7694524"
+          }
+        },
+        {
+          "id": "concord:concord:1.0.1@jar",
+          "name": "Concord Armor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3492848,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/concord-1.0.1.jar",
+            "MD5": "5c36da20e07f7b6e5a2bb4b50daf428a"
+          }
+        },
+        {
+          "id": "com.razz:decocraft:3.0.0.10-beta-1.16.4@jar",
+          "name": "Decocraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 92634797,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/decocraft-3.0.0.10-beta-1.16.4.jar",
+            "MD5": "47d8d326ec7e1c01b76b204dc33492d8"
+          }
+        },
+        {
+          "id": "sonar.fluxnetworks:fluxnetworks:6.2.1.14@jar",
+          "name": "Flux Networks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 468128,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/FluxNetworks-1.16.5-6.2.1.14.jar",
+            "MD5": "966c1e375dbcbb23952afb37893295df"
+          }
+        },
+        {
+          "id": "ivairlinerpack:ivairlinerpack:3.3.1@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Golden Aerotransport Partnership",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 72054331,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/GoldenAerotransport%203.3.1%2016.jar",
+            "MD5": "2a2d130628f6c9fa3d7cbdcd93551df9"
+          }
+        },
+        {
+          "id": "iav:iav:1.0.1@jar",
+          "name": "(MTS/IV) IAV parts pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28456080,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/IAV_Parts_Pack_1.0.2-1.16.5.jar",
+            "MD5": "3f9820213faba83201b2e9a19c6ae457"
+          }
+        },
+        {
+          "id": "mcinterface1165:mts:1.16.5-22.17.0 (1)@jar",
+          "name": "Immersive Vehicles (formerly MTS)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5010568,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/Immersive%20Vehicles-1.16.5-22.17.0%20(1).jar",
+            "MD5": "c564bee50310b9afdcffdb5b5b678bd7"
+          }
+        },
+        {
+          "id": "blusunrize.immersiveengineering:immersiveengineering:1.16.5-5.1.0-148@jar",
+          "name": "Immersive Engineering",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9414280,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/ImmersiveEngineering-1.16.5-5.1.0-148.jar",
+            "MD5": "834eb9edbfc3136ab5b14983fef05275"
+          }
+        },
+        {
+          "id": "flaxbeard.immersivepetroleum:immersivepetroleum:3.4.0-20@jar",
+          "name": "Immersive Petroleum",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1532710,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/ImmersivePetroleum-1.16.5-3.4.0-20.jar",
+            "MD5": "79d32cadc73c0d8f4b15bb477c725c32"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.8.6@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6694200,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/journeymap-1.16.5-5.8.6.jar",
+            "MD5": "60fc57f5aace9a4c92896f4ced0c60f0"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:10.1.2@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11181433,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/Mekanism-1.16.5-10.1.2.457.jar",
+            "MD5": "bcfbd6b2d63020cdbf42b9c2d643b956"
+          }
+        },
+        {
+          "id": "mekanism.generators:mekanismgenerators:10.1.2@jar",
+          "name": "Mekanism: Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 985334,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/MekanismGenerators-1.16.5-10.1.2.457.jar",
+            "MD5": "8e0854f544510952dda70eb3c840638e"
+          }
+        },
+        {
+          "id": "de.maxhenkel.miningdimension:mining_dimension:1.16.5-1.0.6@jar",
+          "name": "Mining World",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 138474,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/mining_dimension-1.16.5-1.0.6.jar",
+            "MD5": "d4459e6a4f95538e6821afd33dcef513"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
+          "name": "Obfuscate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 142536,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/obfuscate-0.6.3-1.16.5.jar",
+            "MD5": "514fe4c6c39bc1b7e474d813daab593e"
+          }
+        },
+        {
+          "id": "net.mrscauthd:boss_tools:5.5e@jar",
+          "name": "Space-BossTools",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2733316,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/Space-BossTools-1.16.5-5.5e.jar",
+            "MD5": "79b8abbe55a0ec09b3f98c72f10176e0"
+          }
+        },
+        {
+          "id": "com.tac.guns:tac:0.3.14.2@jar",
+          "name": "Timeless and Classics Guns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 43320575,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/tac-release-0.3.14.2-1.16.5.jar",
+            "MD5": "ad52fa4804a4600028c0b0b675ceca39"
+          }
+        },
+        {
+          "id": "iv_tcp_v3:iv_tcp_v3:3.20.0@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Trin Civil Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52039150,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/Trin%20Civil%20Pack-1.16.5-4.2.3.jar",
+            "MD5": "470ea17845bb5c61ecebb8f3d3a9f217"
+          }
+        },
+        {
+          "id": "iv_tpp:iv_tpp:3.20.0@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Trin Parts Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9698627,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/Trin%20Parts%20Pack-1.16.5-2.26.0.jar",
+            "MD5": "e63a1e3c9e7e13ba8d9b636eb78c34c0"
+          }
+        },
+        {
+          "id": "unuparts:unucustom:6.7.1@jar",
+          "name": "UNU Custom Parts Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31843885,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/UNU%20Parts%20Pack%20[MTS]%201.16.5-22.17.0-6.7.1.jar",
+            "MD5": "41fc5a4ced0286f0b1a42deb5aa340d3"
+          }
+        },
+        {
+          "id": "auweschveb:auweschveb:03.03.1973@jar",
+          "name": "(MTS/IV) VEB Automobilwerke Schwikau",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 56492684,
+            "url": "http://localhost:8080/servers/DominationWorld-1.16.5/forgemods/required/VEB-04.03.1971-1.16.5.jar",
+            "MD5": "964166dfd71e547c1a8538ef94f1b4c8"
+          }
+        }
+      ]
+    }
+  ]
+}
