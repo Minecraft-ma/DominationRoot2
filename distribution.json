@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://exemple.com/rss.xml",
+  "rss": "https://minecraft-ma.github.io/DominationRoot2/rss.xml",
   "discord": {
     "clientId": "",
     "smallImageText": "Domination World",
@@ -15,11 +15,7 @@
       "version": "1.0.0",
       "address": "dw.hosteria-ddy.com:25568",
       "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
+      "discord": {},
       "mainServer": false,
       "autoconnect": false,
       "modules": [
