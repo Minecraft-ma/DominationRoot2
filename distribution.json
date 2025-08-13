@@ -13,7 +13,7 @@
       "description": "DominationWorld Running Minecraft 1.16.5 (Forge v36.2.34)",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "dw.hosteria-ddy.com:25568",
       "minecraftVersion": "1.16.5",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -464,16 +464,6 @@
             "size": 1532710,
             "url": "https://minecraft-ma.github.io/DominationRoot2/servers/DominationWorld-1.16.5/forgemods/required/ImmersivePetroleum-1.16.5-3.4.0-20.jar",
             "MD5": "79d32cadc73c0d8f4b15bb477c725c32"
-          }
-        },
-        {
-          "id": "journeymap:journeymap:5.8.6@jar",
-          "name": "Journeymap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6694200,
-            "url": "https://minecraft-ma.github.io/DominationRoot2/servers/DominationWorld-1.16.5/forgemods/required/journeymap-1.16.5-5.8.6.jar",
-            "MD5": "60fc57f5aace9a4c92896f4ced0c60f0"
           }
         },
         {
